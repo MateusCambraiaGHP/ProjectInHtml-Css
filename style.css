@@ -1,0 +1,205 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-color: brown;
+    padding: 20px 0;
+}
+.box {
+    position: relative;
+    width: 1230px;
+    margin: 0 auto;
+}
+.principalImage {
+    position: relative;
+    left: 70px;
+}
+nav {
+    position: absolute;
+    top: 100px;
+    right: 120px;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 40px;;
+}
+nav a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:23px;
+    color: black;
+    text-decoration: none;
+}
+nav a:hover {
+    color: red;
+    text-decoration:  underline;
+    
+}
+nav a:active {
+    color: rgb(219, 151, 122);
+    text-decoration:  none;
+}
+.products {
+    width: 970px;
+    
+    margin: 35 auto;
+    padding: 40px 0;
+    
+    
+}
+.products li  {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin-right: 25px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px solid black ;
+    border-radius: 10px;
+}
+.products li:hover{
+    border-color: red;
+    transition: 1s transform;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.products li:active{
+    border-color: rgb(219, 151, 122);
+}
+.products h2 {
+    font-style:italic;
+    font-size: 26px;
+    font-weight: bold;
+}
+.precoProduto {
+    color: red;
+    font-style:italic;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+    margin-top: 18px;
+}
+.descProduto {
+    
+    font-style:italic;
+    font-size: 18px;
+    padding: 10px;
+}
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    
+}
+.copyright {
+    color: white;
+    font-size: 17px;
+    margin-top: 30px;
+    font-style:initial;
+}
+main {
+    width: 970px; 
+    margin:0 auto;
+}
+form {
+        margin:80px 0 ;
+}
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox {
+    margin: 20px 0;
+}
+.enviar {
+    width: 40%;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 0;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    margin: 0px 0 14px;
+}
+.enviar:hover {
+    background: rgb(219, 151, 122);
+    transform: scale(1.1);
+}
+.selecter {
+    cursor: pointer;
+}
+table {
+    margin: 20px 0 40px;
+}
+thead {
+    background: rgb(246, 55, 12);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+td, th {
+    border: 1px solid black;
+    padding: 9px 15px;
+    font-size: 20px;
+}
+.legend {
+    margin: 7px 0 19px;
+}
+.tituloPrincipal {
+    margin-top: 90px;
+    margin: 0 0 0 3em 1em;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.mapa p {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 21px;
+    padding: 10px;
+}
+.mapa p strong{
+    font-style: italic;
+    color: red;
+    font-weight: bold;
+}
+.mapa-google {
+    margin-top: 1em;
+}
+.apresentacaoLoja p {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 21px;
+    padding: 10px;
+}
+#nomeLoja strong{
+    color: red;
+}
+.apresentacaoLoja p em strong {
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
+.itens-beneficios{
+    margin: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.itens-beneficios::before {
+    content: "★";
+}
+.itens-beneficios:after {
+    content: "★";
+}

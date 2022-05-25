@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contatos - Math Drinks</title>  
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="Principal">
+            <div class="box">
+                <h1><a href="file:///C:/ProjectMathBank/MathBank/index.html"><img src="logo.png" alt="Logo da MathDrinks"></a></h1>                           
+                <nav>
+                      <ul class="ListaPrincipal">
+                        <li><a href="file:///C:/ProjectMathBank/MathBank/index.html">Home</a></li>
+                        <li><a href="file:///C:/ProjectMathBank/MathBank/products.html">Produtos</a></li>
+                        <li><a href="file:///C:/ProjectMathBank/MathBank/contatos.html">Contato</a></li>
+                      </ul>      
+                </nav>
+            </div>   
+        </header>
+
+        <main>
+            <form>
+                <label for="nomeSobrenome">Nome e Sobrenome</label>
+                <input type="text" id="nomeSobrenome" class="input-padrao" required placeholder="Insira o seu nome.">
+
+                <label for="e-mail">E-mail</label>
+                <input type="email" id="e-mail" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX.">
+
+                <label for="Mensagem">Mensagem</label>
+                <textarea id="Mensagem" cols="70" rows="10" class="input-padrao" required placeholder="Insira a mensagem desejada."></textarea >
+
+                <fieldset>
+                    <legend class="legend">Como prefere o contato?</legend>
+                    <label for="radio-email"><input type="radio" name = "contato" value="email" id="radio-email">Email</label>
+                    
+                    <label for="radio-telefone"><input type="radio" name = "contato" value="telefone" id = "radio-telefone">Telefone</label>
+                    
+                    <label for= "radio-whatsapp"><input type="radio" name = "contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+                </fieldset>
+
+                <fieldset class="legend">
+                    <legend>Qual horario deseja ser atendido?</legend>
+                    <select class="selecter">
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </fieldset>
+               
+                <label class="legend"><input type="checkbox" class="checkbox" checked> Gostaria de receber decontos no e-mail?</label>
+
+                <input type="submit" value="Enviar Formulário" class="enviar">
+
+            </form>
+            <table>
+                <thead>
+                    <tr>  
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>  
+                        <td>Segunda</td>
+                        <td>07:30h ~ 19:30h</td>
+                    </tr>
+                    <tr>  
+                        <td>Quarta</td>
+                        <td>07:30h ~ 19:30h</td>
+                    </tr>
+                    <tr>  
+                        <td>Sexta</td>
+                        <td>07:30h ~ 19:30h</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+
+        <footer>
+            <img src="logo.png" alt="Logo da MathDrinks">
+            <p class="copyright">&copy; Copyright MathDrinks - 2022</p>
+        </footer>    
+    </body>
+</html>
+
